@@ -5,3 +5,39 @@ html {
   margin: 0px;
   padding: 0px;
 }
+
+
+#app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+} 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d99a6c;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
