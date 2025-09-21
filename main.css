@@ -41,3 +41,9 @@ header nav a {
   font-weight: bold;
 }
 
+footer {
+  text-align: center;
+  background-color: #d99a6c;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
